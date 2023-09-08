@@ -1,0 +1,96 @@
+/* Container styles */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa; /* Light background color like Instagram */
+}
+
+/* Wrapper styles */
+.wrapper {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width for responsiveness */
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Left content styles */
+.left h1 {
+    color: var(--main-text-color);
+    font-size: 24px; /* Smaller font size */
+    margin-bottom: 1rem;
+}
+
+.left p {
+    color: var(--secondary-text-color);
+    font-size: 14px; /* Smaller font size */
+    margin-top: 1rem;
+    line-height: 1.4; /* Slightly reduced line height */
+}
+
+/* Right content styles */
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right input {
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 14px; /* Smaller font size */
+}
+
+.right .submitBtn {
+    background-color: #0095f6; /* Instagram blue color */
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 16px; /* Slightly larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.right .submitBtn:hover {
+    background-color: #007acc; /* Darker blue on hover */
+}
+
+/* Error message styles */
+.error {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    min-width: 200px;
+    background-color: #f00;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+}
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+    background-color: #fafafa; /* Light background color like Instagram */
+}
+/* Container styles */
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container takes up the full viewport height */
+    background-image: url('https://img.freepik.com/premium-vector/radar-screen-background-vector-sonar_165143-1974.jpg'); /* Add your background image URL here */
+    background-size: cover; /* Cover the entire container with the image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}

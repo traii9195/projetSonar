@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+.container{
+    height: 60px;
+    width: 100%;
+  }
+  
+  .wrapper{
+    height: 100%;
+    width: 100%;
+    padding: 0.25rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1919de;
+  }
+  
+  .left > a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 28px;
+      letter-spacing: 1px;
+  }
+  
+  .right{
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+  }
+  
+  .searchForm{
+      display: flex;
+      align-items: center;
+      border: none;
+      height: 60%;
+      background-color: #fff;
+      font-family: 'Roboto Condensed', sans-serif;
+      width: 26%;
+      background-color: #ffffff;
+      padding-right: 10px;
+      margin-right: 80px;
+  }
+  
+  .searchForm > input{
+      border: none;
+      outline: none;
+      padding-left: 0.25rem;
+      width: 98%;
+      font-family: 'Roboto Condensed', sans-serif;
+      height: 100%;
+  }
+  
+  .searchForm > .searchIcon{
+      font-size: 20px;
+  }
+  
+  .personImg{
+      height: 45px;
+      width: 45px;
+      object-fit: cover;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  
+  .modal{
+      position: absolute;
+      right: 0.25rem;
+      top: 3rem;
+      background-color: #fff;
+      height: 80px;
+      width: max-content;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      text-transform: capitalize;
+      box-shadow: 0px 5px 7px 9px rgba(0, 0, 0, 0.075);
+      text-decoration: none;
+      color: inherit;
+  }
+  .titlen{
+    margin-left: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .modal>span{
+   text-decoration: none; 
+   outline: none;
+   color: #1919de;
+   padding: 0.5rem;
+}
+.updateProfile{
+    text-decoration: none; 
+    outline: none;
+    color: #1919de;
+    padding: 0.5rem;
+    margin-top: -15px;
+}
+  .modal>span:hover{
+      cursor: pointer;
+      background-color: #1919de;
+      color: #fff;
+      transition: 0.5s;
+  }
+  .updateProfile:hover{
+      background-color: #1919de;
+      color: #fff;
+      transition: 0.5s;
+}
